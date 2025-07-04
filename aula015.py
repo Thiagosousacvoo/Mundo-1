@@ -1,5 +1,7 @@
-r = 'S'
-while r == 'S':
+n = s = 0
+while True:
     n = int(input('Digite um número: '))
-    r = input('Quer continuar? [S/N] ').upper()
-print('Fim do programa!') 
+    if n == 999:
+        break
+    s += n
+print(f'A soma dos valores foi {s}.') 

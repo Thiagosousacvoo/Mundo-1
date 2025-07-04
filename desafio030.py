@@ -1,0 +1,5 @@
+time = ('Corintias', 'Palmeiras', 'São Paulo', 'Santos', 'Flamengo', 'Vasco', 'Atlético Mineiro', 'Grêmio', 'Internacional', 'Cruzeiro')
+print(f'Os 5 primeiros colocados são {time[:5]}')
+print(f'Os 4 últimos colocados são {time[-4:]}')
+print(f'Os times organizados em ordem alfabéticas são {sorted(time)}')
+print(time.index('Santos') + 1)
